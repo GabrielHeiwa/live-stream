@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "dist/",
+  "scripts": {
+    "dev": "tsx --watch index.ts",
+    "build": "tsc",
+    "start": "node .",
+    "prestart": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-media-server": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/node-media-server": "^2.3.7",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
